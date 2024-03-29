@@ -1,0 +1,281 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .resume {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #232323;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-left: 20px;
+  }
+  
+  .resume header {
+    padding: 10px;
+  }
+
+  .resume main {
+    padding: 10px;
+  }
+  .resume main .profile {
+    padding: 10px 10px 0;
+  }
+
+  .resume main .work-experience,
+  .resume main .skills-education,
+  .resume main .achievements {
+    padding: 0 10px;
+  }
+
+  .resume main .work-experience,
+  .resume main .skills-education .skills,
+  .resume main .skills-education .education,
+  .resume main .achievements {
+    padding: 10px 0;
+  }
+  
+  header {
+    background-color: #232323;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header-top {
+    display: flex;
+    gap: 10px;
+  }
+  .header-icons{
+    display: flex;
+    gap: 10px;
+  }
+  .headertexts{
+    display: flex;
+    gap: 10px;
+  }
+  .all-links{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .heroicons{
+    color: #E50913;
+    height: 25px;
+    width: 25px;
+  }
+  .red-bg{
+    background-color: #DB1F26;
+  }
+  .profile{
+    background-color: #232323;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+  }
+  .profile-img {
+    border: 10px dotted transparent; /* Set the border to transparent */
+    border-image: repeating-linear-gradient(to right, red 0, red 10px, transparent 10px, transparent 10px); /* Define a repeating linear gradient pattern */
+  }
+  .profile-details{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .personal-details{
+    display: flex;
+    gap: 20px;
+  }
+  .name {
+    background-color: #414141;
+    color: #DB1F26;
+    width: 186px;
+    height: 40px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font: Metropolis;
+    font-weight: 500;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }  
+  .rank {
+    background-color: #E50913;
+    color: #232323;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 11.78px;
+    font: metropolis;
+    text-align: center;
+    width: 50px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .applicants{
+    color: #F5F5F5;
+    font-weight: 800;
+  }
+  .summary{
+    color: #FFFFFF;
+  }
+
+  .work-experience{
+    background-color: #232323;
+    padding:10px;
+  }
+
+  .experience-item{
+    border: #414141 solid 1px;
+    padding: 8px;
+    margin: 5px;
+  }
+
+  .experience-header{
+    display: flex;
+    gap: 20px; 
+    color: #F5F5F5;
+  }
+
+  .experience-header-text{
+    color: #F5F5F5;
+    font-weight: 700;
+  }
+
+  .date{
+    color: #F5F5F5;
+    line-height: 16px;
+    font-weight: 400px;
+    font: metropolis;
+  }
+
+  .red-line{
+      width: 190px;
+      height: 0;
+      margin:25px 0;
+      border: 2px solid red;
+      border-radius: 5px; /* Adjust the border radius to control the curve of the ends */
+  }
+
+  .job-title{
+    color: #F5F5F5;
+    display:flex;
+    gap: 10px;
+    font: metropolis;
+    font-weight: 400;
+    margin-bottom: 0px;
+  }
+  .job-role , .job-location{
+    border-left: 1px solid #F5F5F5;
+    border-right: 1px solid #F5F5F5;
+    border-top: 1px solid #F5F5F5;
+    padding:4px;
+  }
+  .job-description{
+    color: #F5F5F5;
+    font: metropolis;
+    font-weight: 400;
+    line-height:25px;
+  }
+
+  .skills-education{
+    display: flex;
+    gap:20px;
+    padding: 20px 40px;
+    background-color: #232323;
+  }
+
+  .skills{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+
+  .func-skills, .tech-skills{
+    background-color: #414141;
+    color: #F5F5F5;
+    padding:15px 60px 45px 5px;
+    height: 85px;
+    width: 269px;
+  }
+  
+  .education{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .edu-item{
+    background-color: #414141;
+    color: #F5F5F5;
+    padding:15px 90px 45px 5px; 
+    height: 85px;
+    width: 280px;
+    position: relative; 
+  }
+  .institute-name {
+    width: 100%; /* Ensure the text covers the entire width */
+    word-wrap: break-word; /* Allow long words to be broken and wrap to the next line */
+  }
+  .edu-date {
+    position: absolute;
+    top:90px;
+    bottom: 20px; /* Adjust distance from bottom */
+    right: 15px; /* Adjust distance from right */
+    font-size: 14px;
+  }
+
+  .achievements{
+    padding: 10px 20px;
+  }
+
+  .achievement-desc{
+    background-color: #414141;
+    padding: 10px;
+    width: 725px;
+    color: #F5F5F5;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 12px;
+  }
+
+
+
+
+
+
+
+
+  .red-text{
+    color: #E50913;
+  }
+
+  .grey-text{
+    color: #A9A9A9;
+    display: inline;
+  }
+
+  .white-text{
+    color: #F5F5F5;
+    display: inline;
+  }
+
+  @media (max-width: 768px) {
+    .resume {
+      flex-direction: column; /* Stack items vertically on mobile */
+      padding-left: 10px; /* Adjust padding */
+    }
+  }
+  
+  /* Tablet Styles */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .resume {
+      padding-left: 15px; /* Adjust padding */
+    }
+  }
+  
