@@ -3,4 +3,5 @@ Figma File Link - https://www.figma.com/file/fUztQHKq6zsWxNHMm8uj1y/Resume-Desig
 Assumptions:
  1. I thought the resume will not cover the full width, so I created a div as resume and styled it according to the classic width of the resume 
  2. As the Gotham Font is not free, I have used the alternative of the font which is available for free - Montserrat
-Live Link - 
+
+Live Link - https://vr-sainyam-assignment.netlify.app/
